@@ -14,6 +14,10 @@ public class Velo {
         this.diamRoue = diamRoue;
     }
     
+    public Velo(double diamRoue) {
+    	this.diamRoue = diamRoue;
+    }
+    
 	public static double getDEFAUT_BRAQUET() {
 		return DEFAUT_BRAQUET;
 	}
