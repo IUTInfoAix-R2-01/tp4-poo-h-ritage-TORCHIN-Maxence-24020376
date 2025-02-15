@@ -6,9 +6,13 @@ public class Mammal extends Animal {
 	}
 
 	@Override
-	public String toString() {
-		return "Mammal [Animal[" + super(ToString())+ "]";
-	}
-	
+    public String toString() {
+        return "Mammal [" + super.toString() + "]";
+    }
+    
+    public static void main(String[] args) {
+        Mammal mammal = new Mammal("Chien");
+        System.out.println(mammal.toString());
+    }
 	
 }
